@@ -1,1 +1,137 @@
-<h1> Hello Mundo </h1>
+<!DOCTYPE html>
+
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+</head>
+
+
+<body>
+
+
+    <div class="header-menu">
+        <p style="position:fixed; left:200px; top:20px; font-size:200%; font-family:verdana;" class="site-name">Latitude
+        </p>
+
+        <div style="position:fixed; right:200px; top:60px;font-family:verdana; " class="topnav">
+            <a class="active" href="#home">Home</a>
+            <a href="#news">Plots</a>
+            <a href="#contact">Comparison</a>
+            <a href="#about">Data </a>
+        </div>
+        </hr>
+    </div>
+
+
+
+    <div class="pj-explanation" style="position:fixed; left:200px; top:200px;">
+        <h1>Summary: Latitude Vs X</h1>
+        <p> <img src="https://columbia.bootcampcontent.com/columbia-bootcamp/COLNYC20190716DATA/raw/master/02-Homeworks/11-Web/Instructions/Resources/assets/images/Fig1.png"
+                alt="graph" height="300" width="300" style="float:left">
+
+            The purpose of this project was to analyze wether changes as you get closer to the equator. To accomplish
+            this analyis, I pulled data from the the OpenWeatherMap API to assemble a data set of over 500 cities. <br>
+            After assembling the dataset, I used Matplotlib to plo various aspects of the weather vs the latitude.
+            Factors that I looked at include: temperatude, cloudiness, wind speed and humidity. This site provides the
+            source data and visualizations created as part of the analysis, as well as explanations and descriptions of
+            any trends and correlations seen.
+
+        </p>
+
+    </div>
+
+
+    <div class="visualizations" style="position:fixed; right:200px; top:170px;">
+        <h2>Visualizations</h2>
+        <ul style=" list-style-type:none;">
+
+
+            <li class="vis-images"> <a href="../html-link.htm"> <img
+                        src="https://columbia.bootcampcontent.com/columbia-bootcamp/COLNYC20190716DATA/raw/master/02-Homeworks/11-Web/Instructions/Resources/assets/images/Fig2.png"
+                        width="82" height="86" title="first plot" alt="first plot"></a></li>
+
+
+
+            <li class="vis-images"> <a href="../html-link.htm"> <img
+                        src="https://columbia.bootcampcontent.com/columbia-bootcamp/COLNYC20190716DATA/raw/master/02-Homeworks/11-Web/Instructions/Resources/assets/images/Fig1.png"
+                        width="82" height="86" title="second plot" alt="second plot"></a></li>
+
+
+
+
+            <li class="vis-images"> <a href="../html-link.htm"> <img
+                        src="https://columbia.bootcampcontent.com/columbia-bootcamp/COLNYC20190716DATA/raw/master/02-Homeworks/11-Web/Instructions/Resources/assets/images/Fig3.png"
+                        width="82" height="86" title="third plot" alt="third plot"></a></li>
+
+
+
+            <li class="vis-images"> <a href="../html-link.htm"> <img
+                        src="https://columbia.bootcampcontent.com/columbia-bootcamp/COLNYC20190716DATA/raw/master/02-Homeworks/11-Web/Instructions/Resources/assets/images/Fig4.png"
+                        width="82" height="86" title="third plot" alt="third plot"></a></li>
+
+        </ul>
+    </div>
+
+
+
+
+
+    <style>
+        .header-menu {
+            border-top: 120px solid white;
+        }
+
+        body {
+            background-color: #DFEDF1;
+        }
+
+        .site-name {
+
+
+            padding: 10px;
+            background-color: #DFEDF1;
+            text-align: center;
+            box-shadow: 2px 3px #888888;
+
+        }
+
+
+
+
+        .pj-explanation {
+            width: 700px;
+            padding: 10px;
+            background-color: rgb(255, 255, 255);
+            text-align: center;
+
+        }
+
+        .visualizations {
+
+            background-color: rgb(255, 255, 255);
+            padding: 10px;
+            width: 200px;
+            text-align: center;
+
+
+
+        }
+
+
+
+        @media screen and (max-width: 600px) {
+
+
+
+            .topnav {
+                background-color: solid white;
+                margin: 100px;
+                margin-left: 800px;
+            }
+    </style>
+
+
+</body>
+
+</html>
