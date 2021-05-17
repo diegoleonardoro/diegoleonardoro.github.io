@@ -1,0 +1,140 @@
+<!doctype html>
+
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+
+    <div id='firstBlock'>
+        <h1>Landmark's Century Centre Cinema</h1>
+
+        <p>The theatre has been located in 2828 North Clark Street at Diversey since 2001. It is Chicago's first
+            all-stadium seating theatre showcasing independent and foreign language films. Surrounded by award-winning
+            restaurants, the theatre has attracted an audience that appreciates good food and art.
+        </p>
+
+        <h2>Context: </h2>
+        <p>Since its opening in 2001, Landmark's Century Centre Cinema has sucessfully catered to and audience that
+            appeciates foreign, independent and indie movies. Due to its success, in the Spring of 2015, the theatre
+            was extensively renovated, and in 2021, as society moves from the global pandemic, they are looking to open
+            a
+            new location in Chicago. </p>
+
+        <h2>Challenge: </h2>
+        <p>Chicago has a good supply of theatres that satisfy the demand for independent and foreing movies. They are
+            scattered throughout they city, and they serve a unique audience. Due to one and a half successful decade
+            with a solid and growing customer base, Landmark's Theatre is now looking for an untapped location for a
+            new theatre.
+        </p>
+        <p>
+            To do so, it is necessary to understand the area where Landmark's Century Centre Cinema is located to see
+            if it has any unique characteristics.
+        </p>
+
+        <h2>Understanding the area where Landmark's Century Centre Cinema is located: </h2>
+
+        <p>Exploring ridership of the nearest station to Landmark's Century Centre Cinema, could help us discover
+            patterns of transit in this area and ultimately decide if the new location could replicate these patterns
+        </p>
+
+        <p>The nearest station to the theatre is Diversey. From 2018 to 2019, Diversey's daliy ridership divided by day
+            of the week looked like this(hover over the bars for more detail): </p>
+    </div>
+
+    <p id='rides'>Rides</p>
+    <div class='graph_ridersbyDay'></div>
+
+    <div id='secondBlock'>
+        <p>The busiest day was Tuesdays with 592.345 rides and the least busy day was Sundays with 205.548. The
+            difference
+            between the busiest day and the least busy day was 386.797 rides. That seems like a big difference but
+            let's compare it
+            to other stations to help us determine if Diversey is like most stations or not.
+        </p>
+
+    </div>
+
+
+    <h3 id='secondGraphHeader'>Difference between maximum and minimum daily ridership from 2018 to 2019 in all stations
+        (Except Diversey): </h3>
+    <p id='psecondgraph'>(Hover over each circle for more detail )</p>
+
+    <div class='scatter_plot'></div>
+
+    <div id='thirdBlock'>
+        <p>From the previous graph, we can say that most stations have a difference between the busiest and least busy
+            day
+            below 400.000, which is similat to Diversey Station. This can lead us to the conclusion that the areas in
+            the
+            city where most stations are located have similar transit characteristics as the Diversey Station and
+            consequently Landmark's Century Centre Cinema.
+        </p>
+
+        <p> But now let's look deeper into the areas with theatres comprable to Landmark's Century Centre Cinema.
+
+            By looking at the map bellow, we can say that most theatres are located in the North District, one in the
+            Central
+            District and two in the South District</p>
+    </div>
+
+    <p id="graphPara">Hover over each gaph for more detailed information</p>
+
+    <div class='mapDiv'>
+        <svg class='mapSvg'></svg>
+    </div>
+
+
+
+
+
+
+    <div class='demographic_graphs'>
+
+        <div id='ages_graph' class='demGraph'></div>
+        <div id='ethnicites_graph' class='demGraph'></div>
+        <div id='education_graph' class='demGraph'></div>
+        <div id='income_graph' class='demGraph'></div>
+
+    </div>
+
+    <div id='fourthBlock'>
+        <p>From the previous graphs, we can infer that theatres that offer independent and foreign language films tend
+            to
+            be located in affluent neighborhoods, predominantly white, with a young and educated population. This would
+            be
+            enough to think that niehgborhoods that are economically vibrant, with services that satisfy a good taste
+            are
+            neighborhoods that where a theatre offering independent and foreign language films would succeed </p>
+
+        <p>But to further test this, let's look at the places in Chicago that have received the most restaurant license
+            applications and how they correlate to the places where theatres that offer independent and foreign
+            language
+            films tend to operate </p>
+    </div>
+
+    <h3 id="restmapHeder">Application for restaurant license in 2018, 2019,2020, 2021 by Zipcode </h3>
+    <p id='restmapexpli'>(Darker zipcodes received more applications)</p>
+    <p id='restmapexpldd'>Hover over each zipcode for more detail</p>
+
+    <div class='restaurantsMap'>
+        <svg class='mapRestSvg'></svg>
+    </div>
+
+    <p>
+        After analyzing the above data, we suggest that Landmark's Century Centre Cinema considers zipcode 60639 for
+        its new location. This zipcode received 410 applications for restaurant license and it is relatively near to
+        the area in the city with most independent theatres.
+    </p>
+
+
+    <script src="http://d3js.org/d3.v4.min.js" charset="utf-8"></script>
+    <script src="https://unpkg.com/topojson@3"></script>
+
+    <script src="graphs.js"></script>
+</body>
+
+</html>

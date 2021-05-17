@@ -1,0 +1,83 @@
+
+
+.demGraph{
+
+    width:25%; 
+    height:280px;
+    margin:4px; 
+    border:1px solid black; 
+    float: left
+
+}
+
+.mapDiv{
+    float: left;
+}
+
+#firstBlock {
+    margin-top: 280px;
+    margin-bottom: 100px;
+    margin-right: 280px;
+    margin-left: 280px;
+}
+
+
+#secondBlock{
+    margin-top: 30px;
+    margin-bottom: 100px;
+    margin-right: 280px;
+    margin-left: 280px;
+
+}
+
+#secondGraphHeader{
+    margin-left: 290px;
+}
+#psecondgraph{
+    margin-left: 550px;
+    margin-bottom: 20px;
+}
+#thirdBlock{
+    margin-top: 110px;
+    margin-bottom: 100px;
+    margin-right: 280px;
+    margin-left: 280px;
+}
+
+
+.graph_ridersbyDay{
+    margin-left: 30%;
+}
+
+#rides{
+    margin-left: 32%;
+    margin-bottom: -10px;
+}
+
+
+#graphPara{
+    margin-left: 800px;
+}
+
+#fourthBlock{
+    margin-top: 800px;
+
+    margin-right: 280px;
+    margin-left: 280px;
+
+}
+
+
+#restmapHeder{
+
+    margin-top: 100px;
+    margin-left: 380px;
+}
+
+#restmapexpli{
+    margin-left: 490px;
+}
+
+#restmapexpldd{
+    margin-left: 510px;
+}
